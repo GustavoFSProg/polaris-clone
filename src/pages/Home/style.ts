@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import show1 from '../assets/show3.jpg'
-import show2 from '../assets/show2.jpg'
-import show3 from '../assets/show1.jpg'
+import show1 from '../../assets/show3.jpg'
+import show2 from '../../assets/show2.jpg'
+import show3 from '../../assets/show1.jpg'
 
 export const Container = styled.div`
   display: flex;

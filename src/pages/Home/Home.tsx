@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import {
   Container,
   ContainerImage,
@@ -12,6 +13,9 @@ function Home() {
   return (
     <Container>
       <ContainerImage>
+        <Link to="/music" style={{ color: 'white', fontSize: '20px' }}>
+          Music
+        </Link>
         <Title>Dominus Fatua</Title>
       </ContainerImage>
       <ContainerImageDois>
