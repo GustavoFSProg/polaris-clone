@@ -16,7 +16,7 @@ export const Title = styled.h1`
   color: white;
 
   @media screen and (max-width: 600px) {
-    font-size: 8px;
+    font-size: 20px;
   }
 `
 
