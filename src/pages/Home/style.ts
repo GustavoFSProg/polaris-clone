@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: auto;
 `
 export const Title = styled.h1`
@@ -46,6 +46,7 @@ export const ContainerImage = styled.div`
 
   width: 100%;
   height: 100vh;
+  filter: brightness(0.8);
 `
 
 export const ContainerImageDois = styled.div`
@@ -59,6 +60,7 @@ export const ContainerImageDois = styled.div`
 
   width: 100%;
   height: 100vh;
+  filter: brightness(0.8);
 `
 
 export const ContainerImageTres = styled.div`
@@ -72,6 +74,7 @@ export const ContainerImageTres = styled.div`
 
   width: 100%;
   height: 100vh;
+  filter: brightness(0.6);
 `
 
 export const Footer = styled.div`
